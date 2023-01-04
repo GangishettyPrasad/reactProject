@@ -11,11 +11,14 @@ import {
 	BrowserRouter,
   } from "react-router-dom";
   import MainComponent from './MainComponent';
+import SubContent from "./SubContent";
 function Navigation() {
-	const [sidebarData, setSidebarData] = useState(false);
+	const [sidebarData, setSidebarData] = useState(true);
 	
 	const sidebar = ()=>{
     setSidebarData(!sidebarData);
+	
+	
 	}
   return (
 	<> 
@@ -32,6 +35,7 @@ function Navigation() {
       </Navbar>
 	</div>
 	<SideBar  sidebarData={sidebarData}/>
+	
 	
 	</> 
   );

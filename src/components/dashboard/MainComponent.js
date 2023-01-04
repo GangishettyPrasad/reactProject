@@ -3,16 +3,18 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { AiOutlineMenu } from "react-icons/ai";
+import Navigation from './Navigation';
 import SideBar from "./SideBar";
 function MainComponent() {
-	const [sidebarData, setSidebarData] = useState(false);
+	// const [sidebarData, setSidebarData] = useState(false);
 	
-	const sidebar = ()=>{
-    setSidebarData(!sidebarData);
-	}
+	// const sidebar = ()=>{
+    // setSidebarData(!sidebarData);
+	// }
+	
   return (
-	<div>
-		<div>
+	<div >
+		{/* <div>
 	   <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand><AiOutlineMenu onClick={ () => sidebar()}/></Navbar.Brand>
@@ -24,8 +26,9 @@ function MainComponent() {
         </Container>
       </Navbar>
 	</div>
-	<SideBar  sidebarData={sidebarData}/>
-	  <div>
+	<SideBar  sidebarData={sidebarData}/> */}
+	<Navigation/>
+	  <div className="container ,{min_width}">
 		<p>
 		Lorem Ipsum is simply dummy text of the printing and typesetting industry. ... be distracted by the readable content of a page when looking at its layout.
 		</p>
