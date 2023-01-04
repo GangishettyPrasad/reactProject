@@ -44,7 +44,30 @@ const Balance = () => {
           {/* <div><img src={profile} width="50px" height="50px" className="rounded-circle" /></div> */}
         </div>
       </nav>
-      <br />
+
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-6">
+            <div>
+              <img src={api} className="p-2" />
+            </div>
+            <div>
+              <h4 className="orange text-bolder">Guide For API Integration</h4>
+              <div>
+                <h5 className="text_Heading font-bold">
+                  Get a detailed insight on integrating
+                  <br />
+                  API by accessing the
+                  <br />
+                  how-to-guide
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6"> </div>
+        </div>
+      </div>
+
       {/* <div className="container-fluid ">
         <div className="row container-fluid bg-white shadow-lg rounded mx-auto p-4 main_width">
           <div className="col-md-6 text-center p-3">
@@ -63,7 +86,7 @@ const Balance = () => {
                 <div>
                   <h4 className="orange text-bolder">
                     Guide For API Integration
-                  </h4>{' '}
+                  </h4>
                 </div>
                 <div className=" ">
                   <h5 className="text_Heading font-bold">
@@ -72,7 +95,7 @@ const Balance = () => {
                     API by accessing the
                     <br />
                     how-to-guide
-                  </h5>{' '}
+                  </h5>
                 </div>
               </div>
             </div>
@@ -106,7 +129,7 @@ const Balance = () => {
           </div>
         </div>
       </div> */}
-      <br />
+
       {/* <div className="container-fluid   ">
         <div className="row  bg-white shadow-lg rounded mx-auto p-4 main_width">
           <div className="col-md-2 my-3  border-end ">

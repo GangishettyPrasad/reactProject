@@ -19,3 +19,8 @@ background: linear-gradient(164deg, rgba(29,29,145,1) 7%, rgba(98,20,148,1) 72%)
 .main_width{
 	width: 97%;
 }
+.sidebarWidth{
+	width:10%;
+	height: 100vw;
+	position: fixed;
+}
